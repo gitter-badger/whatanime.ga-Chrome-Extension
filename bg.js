@@ -1,5 +1,15 @@
 var imageOnClick = function (info, tab) {
-  window.open("https://whatanime.ga/?url="+info.srcUrl);
+  chrome.storage.sync.get({
+    autoSearch: true
+  }, function(options) {
+    if(options.autoSearch){
+        window.open("https://whatanime.ga/?auto&url="+info.srcUrl);
+    }
+    else{
+        window.open("https://whatanime.ga/?url="+info.srcUrl);
+    }
+  });
+  
 };
 
 var title = "Search on whatanime.ga";

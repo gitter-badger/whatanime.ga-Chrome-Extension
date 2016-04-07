@@ -2,6 +2,7 @@
    "background": {
       "scripts": [ "bg.js" ]
    },
+   "options_page": "options.html",
    "description": "Use anime screenshots to search where this scene is taken from.",
    "homepage_url": "https://whatanime.ga",
    "icons": {
@@ -11,6 +12,6 @@
    },
    "manifest_version": 2,
    "name": "Search Anime by Screenshot",
-   "permissions": [ "contextMenus" ]
-   "version": "0.1"
+   "permissions": [ "contextMenus","storage" ],
+   "version": "0.2"
 }
