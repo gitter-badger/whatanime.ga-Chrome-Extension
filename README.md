@@ -1,4 +1,6 @@
 ## WAIT: What Anime Is This (Chrome Extension)
+
+[![Join the chat at https://gitter.im/soruly/whatanime.ga-Chrome-Extension](https://badges.gitter.im/soruly/whatanime.ga-Chrome-Extension.svg)](https://gitter.im/soruly/whatanime.ga-Chrome-Extension?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 Chrome Extension for the Anime Reverse Search Engine - https://whatanime.ga
 
 Use anime screenshots to search where this scene is taken from.
